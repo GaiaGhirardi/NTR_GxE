@@ -1,4 +1,4 @@
-# NTR_GxE
+# GxE using NTR
 
 Title: Interaction of family SES with children’s genetic propensity for cognitive and noncognitive skills: No evidence of the Scarr-Rowe hypothesis for educational outcomes
 
