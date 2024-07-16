@@ -10,9 +10,11 @@ We draw on the Netherlands Twin Register (NTR) data. We cannot publish the NTR d
 
 ## Replication Folder and Files description
 
-## Dofile description (main analysis)
+Following, we describe the dofiles, variables, and datasets used in the main analysis. 
 
-| Dofile name:              |  Description                                                                      |  
+## Dofile description 
+
+| Dofile name               |  Description                                                                      |  
 |---------------------------|-----------------------------------------------------------------------------------|            
 | 0_master                  | Master dofile                                                                     | 
 | 1_merge                   | Merges the phenotypic and genetic datasets                                        |
@@ -31,9 +33,9 @@ We draw on the Netherlands Twin Register (NTR) data. We cannot publish the NTR d
 | 9_power_analysis_PGINCOG  ||
 | 9_power_analysis_R1       ||
 
-## Variable description (main analysis)
+## Variable description 
 
-| Variable name:     |  Description                                                                      |  
+| Variable name      |  Description                                                                      |  
 |--------------------|-----------------------------------------------------------------------------------|            
 | ID_t               | Child's unique id                                                                 | 
 | c_healthDD2        | Child's health at wave 2                                                          |
@@ -67,9 +69,11 @@ We draw on the Netherlands Twin Register (NTR) data. We cannot publish the NTR d
 | cat4_sd            |  Categorization: WLE Standardized (w4)                                            |
 | math5_sd           |  Mathematical: WLE Standardized (w5)                                              |
 
-| Data file to open   | Description                                                       |  
-|---------------------|-------------------------------------------------------------------|
-| xDataset_models.dta | Main dataset containing all variables described above             |
+## Data files to open 
+
+| Datasets            | Description                                                                                                            | 
+|---------------------|------------------------------------------------------------------------------------------------------------------------|
+| TRIO_rekenm7_em.dta | Main dataset containing all variables described above: between-family analysis and Mathematics grade age 7 as outcome  |
 
 
 ### Software 
