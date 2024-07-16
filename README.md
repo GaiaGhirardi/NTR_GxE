@@ -37,44 +37,48 @@ Following, we describe the dofiles, variables, and datasets used in the main ana
 
 | Variable name      |  Description                                                                      |  
 |--------------------|-----------------------------------------------------------------------------------|            
-| ID_t               | Child's unique id                                                                 | 
-| c_healthDD2        | Child's health at wave 2                                                          |
-| place_residence1   | Place of residence                                                                |
-| n_siblings1        | Number of siblings at wave 1                                                      |
-| n_siblings3        | Number of siblings at wave 3                                                      |
-| n_sib_d            | Change in number of siblings                                                      |
-| single_parent1     | Cohabitation family wave 1                                                        |
-| single_parent2     | Cohabitation family wave 2                                                        |  
-| single_parent3     | Cohabitation family wave 2                                                        |
-| benefit_ecec       | Benefit expectation Daycare: enrichment                                           |
-| att3               | ECEC attendance                                                                   |
-| c_weight1          | Child's weight at birth                                                           |
-| c_migr_n1          | Child's migration background                                                      |
-| p_goals            | Parenting goals                                                                   |
-| sensori1_sd        | Cognitive-sensorimotor development                                                |          
-| stratum            | Sample: stratification variable                                                   |
-| psu                | Sample: Primary Sampling Unit (Point number)                                      |
-| weight_ipw_simple  | IPW weight for selection in the sample                                            |
-| weight_ipw_at      | IPW weight for controlling for attrition                                          |
-| weight_ipw_atW3    | IPW weight for controlling selection in the sample (w3) , and for attrition       |
-| weight_ipw_atW45   | IPW weight for controlling selection in the sample (w45) , and for attrition      |
-| weight_ipw_atW6    | IPW weight for controlling selection in the sample (w6) , and for attrition       |
-| SDQ_ppb4_sd        | Peer problems: Standardized (w4)                                                  |
-| SDQ_ppb6_sd        | Peer problems: Standardized (w6)                                                  |
-| SDQ_pb4_sd         | Problems Behaviour: Standardized (w4)                                             |    
-| SDQ_pb6_sd         |  Prosocial behavior: Standardized (w6)                                            | 
-| SDQ_h6_sd          | Hyperactivity: Standardized (w6)                                                  |
-| SDQ_bp6_sd         | Behavioral problems: Standardized (w6)                                            |
-| voc6_sd            |  Vocabulary: WLE Standardized (w6)                                                |
-| cat4_sd            |  Categorization: WLE Standardized (w4)                                            |
-| math5_sd           |  Mathematical: WLE Standardized (w5)                                              |
+| ID                 | Individual's unique id                                                            |
+| FamilyNumber       | Family's unique id                                                                |
+| rekenm7            | Mathematics (age 7)                                                               | 
+| taalm7             | Reading (age 7)                                                                   |
+| rekenm10           | Mathematics (age 10)                                                              |
+| taalm10            | Reading (age 10)                                                                  |
+| CITO_sd            | Test scores (CITO)                                                                |
+| track              | Upper secondary track (age 12-18)                                                 |
+| edu4_after1980     | Educational Attainment (age ≥ 25)                                                 |
+| pedu_max_0         | Parents' education                                                                |
+| CogPGS_sd          | PGI cognitive skills                                                              |
+| NCogPGS_sd         | PGI noncognitive skills                                                           |
+
+As controls, we have also the first 10 PCs and Platform. 
 
 ## Data files to open 
 
-| Datasets            | Description                                                                                                            | 
-|---------------------|------------------------------------------------------------------------------------------------------------------------|
-| TRIO_rekenm7_em.dta | Main dataset containing all variables described above: between-family analysis and Mathematics grade age 7 as outcome  |
-
+Here, we list the main datasets containing all the variables described above and used in the analyses. 
+ 
+| Datasets                   | Description                                                                   | 
+|----------------------------|-------------------------------------------------------------------------------|
+| BE_rekenm7_em.dta          | Between-family analysis and Mathematics grade at age 7 as outcome             |
+| BE_taalm7_em.dta           | Between-family analysis and Reading grade at age 7 as outcome                 |
+| BE_rekenm10_em.dta         | Between-family analysis and Mathematics grade at age 10 as outcome            |
+| BE_taalm10_em.dta          | Between-family analysis and Reading grade at age 10 as outcome                |
+| BE_CITO_sd_em.dta          | Between-family analysis and Test scores (CITO) at age 12 as outcome           |
+| BE_track_em.dta            | Between-family analysis and Upper secondary track at age 12-18 as outcome     |
+| BE_edu4_after1980_em.dta   | Between-family analysis and Educational attainment (≥1980) at ≥25 as outcome  |
+| WI_rekenm7_em.dta          | Within-family analysis and Mathematics grade at age 7 as outcome              |
+| WI_taalm7_em.dta           | Within-family analysis and Reading grade at age 7 as outcome                  |
+| WI_rekenm10_em.dta         | Within-family analysis and Mathematics grade at age 10 as outcome             |
+| WI_taalm10_em.dta          | Within-family analysis and Reading grade at age 10 as outcome                 |
+| WI_CITO_sd_em.dta          | Within-family analysis and Test scores (CITO) at age 12 as outcome            |
+| WI_track_em.dta            | Within-family analysis and Upper secondary track at age 12-18 as outcome      |
+| WI_edu4_after1980_em.dta   | Within-family analysis and Educational attainment (≥1980) at ≥25 as outcome   |
+| TRIO_rekenm7_em.dta        | Trio analysis and Mathematics grade at age 7 as outcome                       |
+| TRIO_taalm7_em.dta         | Trio analysis and Reading grade at age 7 as outcome                           |
+| TRIO_rekenm10_em.dta       | Trio analysis and Mathematics grade at age 10 as outcome                      |
+| TRIO_taalm10_em.dta        | Trio analysis and Reading grade at age 10 as outcome                          |
+| TRIO_CITO_sd_em.dta        | Trio analysis and Test scores (CITO) at age 12 as outcome                     |
+| TRIO_track_em.dta          | Trio analysis and Upper secondary track at age 12-18 as outcome               |
+| TRIO_edu4_after1980_em.dta | Trio analysis and Educational attainment (≥1980) at ≥25 as outcome            |
 
 ### Software 
 
