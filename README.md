@@ -29,9 +29,9 @@ Following, we describe the dofiles, variables, and datasets used in the main ana
 | 8_graphs_M3_coefplot      | Graphs plotting the GxE coefficients                                              |
 | 8_graphs_M3_marginsplot   | Graphs plotting the margins of the GxE analysis                                   |
 | 9_multiple_testing        | Multiple testing dofile                                                           |
-| 9_power_analysis_PGICOG   ||
-| 9_power_analysis_PGINCOG  ||
-| 9_power_analysis_R1       ||
+| 9_power_analysis_PGICOG   | Power analysis using Monte-Carlo simulation (PGI cognitive skills)                |
+| 9_power_analysis_PGINCOG  | Power analysis using Monte-Carlo simulation (PGI noncognitive skills)             |
+| 9_power_analysis_R2_test  | Power analysis R2 test in a multiple linear regression                            |
 
 ## Variable description 
 
