@@ -6,7 +6,7 @@ Authors: Gaia Ghirardi, Carlos Gil-Hernàndez, Fabrizio Bernardi, Elsje van Berg
 
 ## Data  
 
-We draw on the Netherlands Twin Register (NTR) data. We cannot publish the NTR data, as participants did not consent to sharing their data publicly. However, interested researchers can request and use [NTR data](https://(https://tweelingenregister.vu.nl) following their application procedure.
+We draw on the Netherlands Twin Register (NTR) data. We cannot publish the NTR data, as participants did not consent to sharing their data publicly. However, interested researchers can request and use [NTR data](https://tweelingenregister.vu.nl) following their application procedure.
 
 ## Replication Folder and Files description
 
