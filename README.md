@@ -22,15 +22,12 @@ Following, we describe the dofiles, variables, and datasets used in the main ana
 | 3A_sample_BE              | Sample selection and variable standardization for the between-family analysis     |
 | 3B_sample_WI              | Sample selection and variable standardization for the within-family analysis      |
 | 3C_sample_TRIO            | Sample selection and variable standardization for the trio analysis               |
-| 4_sample_ALL              | Sample selection and variable standardization overall                             |
-| 5_descriptive             | Descriptives dofile                                                               |  
-| 6_models_tables           | Exports the tables of the main analysis                                           |
-| 7_graphs_M2_coefplot      | Graphs plotting the main impact of the PGs and parents' SES                       |
-| 8_graphs_M3_coefplot      | Graphs plotting the GxE coefficients                                              |
-| 8_graphs_M3_marginsplot   | Graphs plotting the margins of the GxE analysis                                   |
-| 9_multiple_testing        | Multiple testing dofile                                                           |
-| 9_power_analysis_PGICOG   | Power analysis using Monte-Carlo simulation (PGI cognitive skills)                |
-| 9_power_analysis_PGINCOG  | Power analysis using Monte-Carlo simulation (PGI noncognitive skills)             |
+| 4_sample_ALL              | Sample selection and variable standardization overall                             | 
+| 5_tables                  | Exports the tables of the main analysis                                           |
+| 6_graphs_M2_coefplot      | Graphs plotting the main impact of the PGs and parents' SES                       |
+| 7_graphs_M3_coefplot      | Graphs plotting the GxE coefficients                                              |
+| 7_graphs_M3_marginsplot   | Graphs plotting the margins of the GxE analysis                                   |
+| 8_multiple_testing        | Multiple testing dofile                                                           |
 | 9_power_analysis_R2_test  | Power analysis R2 test in a multiple linear regression                            |
 
 ## Variable description 
@@ -54,7 +51,7 @@ As controls, we have also the first 10 PCs and Platform.
 
 ## Data files to open 
 
-Here, we list the main datasets containing all the variables described above and used in the analyses. 
+Here, we list the main datasets containing all the variables described above and used in the analyses. Running the dofiles "4_sample_ALL" the following datasets are created. 
  
 | Datasets                   | Description                                                                   | 
 |----------------------------|-------------------------------------------------------------------------------|
