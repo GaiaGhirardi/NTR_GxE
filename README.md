@@ -51,7 +51,7 @@ As controls, we have also the first 10 PCs and Platform.
 
 ## Data files to open 
 
-Here, we list the main datasets containing all the variables described above and used in the analyses. Running the dofiles "4_sample_ALL" the following datasets are created. 
+Here, we list the main datasets containing all the variables described above and used in the analyses. Running the dofile "4_sample_ALL" the following datasets are created. 
  
 | Datasets                   | Description                                                                   | 
 |----------------------------|-------------------------------------------------------------------------------|
