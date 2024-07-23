@@ -1,8 +1,10 @@
 # GxE using NTR
 
-Title: Interaction of Family SES with Children’s Genetic Propensity for Cognitive and Noncognitive Skills: No Evidence of the Scarr-Rowe Hypothesis for Educational Outcomes.
+**Title**: Interaction of Family SES with Children’s Genetic Propensity for Cognitive and Noncognitive Skills: No Evidence of the Scarr-Rowe Hypothesis for Educational Outcomes.
 
-Authors: Gaia Ghirardi, Carlos Gil-Hernàndez, Fabrizio Bernardi, Elsje van Bergen, Perline Demange
+**Authors**: Gaia Ghirardi, Carlos Gil-Hernàndez, Fabrizio Bernardi, Elsje van Bergen, Perline Demange
+
+**Citation**: Ghirardi et al., (2024) Interaction of Family SES with Children’s Genetic Propensity for Cognitive and Noncognitive Skills: No Evidence of the Scarr-Rowe Hypothesis for Educational Outcomes. _Research in Social Stratification and Mobility_
 
 ## Data  
 
